@@ -1,0 +1,235 @@
+.upload {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: #fcba11;
+    font-weight: 600;
+}
+
+.hr {
+    border-top: 10px solid #008036;
+}
+
+.UploadForm {
+    padding: 20px;
+    text-align: center;
+}
+
+.uplod_btn {
+    margin-top: 22px;
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background: #008036;
+    color: white;
+    cursor: pointer;
+}
+
+.TbodyRow {
+    text-align: center !important;
+}
+
+.upload {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: #fcba11;
+    font-weight: 600;
+}
+
+.hr {
+    border-top: 10px solid #008036;
+    margin-bottom: 20px;
+}
+
+.Active {
+    background: green;
+    padding: 9px;
+    border-radius: 6px;
+    color: white;
+}
+
+.InActive {
+    background: dimgrey;
+    padding: 9px;
+    border-radius: 6px;
+    color: white;
+}
+
+.warranty_container {
+    width: 70%;
+    margin: auto;
+}
+
+.wtittle {
+    text-align: center;
+}
+
+.warranty_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warranty_card {
+    font-size: 17px;
+    border: 1px solid;
+    margin: 13px;
+    padding: 7px;
+    padding-right: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.warranty_card input {
+    cursor: pointer;
+}
+
+.warranty_card label {
+    cursor: pointer;
+}
+
+.warrantymain {
+
+    padding-top: 20px;
+}
+
+.warranty_btn {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.warranty_sub {
+    width: 33%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #008036;
+    color: white;
+    font-size: 19px;
+
+}
+
+.warranty_btn :hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+#Registerpage {
+    display: none;
+}
+
+.Check-Serial-number {
+    border: 1px solid green;
+    color: green;
+}
+
+#show-vaild-msg {
+    display: none;
+}
+
+.ErrorVaildSerial {
+    border: 1px solid red;
+    color: red;
+}
+
+#RegisterWarrranty {
+    display: none;
+}
+
+#verifyotpbtn {
+    display: none;
+}
+
+#otp-verify {
+    display: none;
+}
+
+#otp-verify_name {
+    display: none;
+}
+
+#ReSendOTPbtn {
+    display: none;
+}
+
+#OtpErrorThrow {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+#Error-vaild-msg {
+    display: none;
+}
+
+.radioActive {
+    accent-color: green;
+}
+
+.warranty_container_Mu {
+    width: 100%;
+    padding: 10px;
+    /* background: red; */
+}
+
+.warranty_card_box_Mu {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #fcba11;
+    margin: auto;
+}
+
+.warranty_row_1 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.warranty_row_2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.warranty_container_Mu input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.warranty_container_Mu label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Text_Center {
+    text-align: center;
+}
+
+.OTPSENDBTN_mu:disabled,
+.OTPSENDBTN_mu[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.OTPSENDBTN_mu {
+    width: 20%;
+    padding: 15px;
+    border: none;
+    background: green;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.OTPSENDBTN_mu :hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
